@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/me", (req, res) => {
-    res.send("<h1>HOME PACE</h1>","<h2>Hi, I am Papa Yaw Nyantakyi-Darko and I'm learning Express!</h2>");
+    res.send("<h1>HOME PAGE</h1>,<h2>Hi, I am Papa Yaw Nyantakyi-Darko and I'm learning Express!</h2>");
 });
 
 
